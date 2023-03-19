@@ -28,7 +28,7 @@ spec:
         carto.run/workload-name: node-express
     spec:
       containers:
-      - image: private-harbor.tanzu.lab/tap/supply-chain/node-express-default@sha256:c5031f548b86dc248e8c3fa6b50303970e57f71dfb5ddc7bae5caae0d30d9473
+      - image: private-harbor.tanzu.lab/tap/supply-chain/node-express-default@sha256:820d5011d02bc1c32d14433a1feadcb4dfbfe422aab4a4071c0a8f7656fefb97
         name: workload
         resources: {}
         securityContext:
